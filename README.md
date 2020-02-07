@@ -27,5 +27,10 @@
 * git checkout <IDduCommit> : revenir à un commit
 * git HEAD~2 : revenir au deuxième commit avant le HEAD
 
+# Pousser du code sur GitHub
+* git remote add origin https://github.com/mlriedinger/CV-exo.git
+* git push -u origin master
+
+
 
 
