@@ -31,6 +31,21 @@
 * git remote add origin https://github.com/mlriedinger/CV-exo.git
 * git push -u origin master
 
+# Résolution de conflits
+Si modification sur la même ligne sur GitHub et en local, Git affiche un message d'erreur au moment de push le local. 
+Résolution : 
+* faire un git pull pour récupérer les modifications GitHub
+* l'IDE affiche le conflit avec le sympbole <<<<<< >>>>>>> 
+* choisir de ne conserver que l'un ou l'autre des changements, ou les deux
+* faire un commit avec un message de résolution de conflit
 
+# Créer une nouvelle branche
+* git checkout -b nomDeLaBranche : pour créer la nouvelle branche et se placer directement dedans
+
+# Fusionner des branches (merge)
+Si on a une branche A et qu'on veut la fusionner avec des modifications apportées dans une branche B :
+* on se place dans la branche A avec : git checkout A
+* on fusionne la branche B avec A : git merge B
+* on fait un git push origin A
 
 
