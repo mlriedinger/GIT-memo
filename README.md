@@ -48,4 +48,5 @@ Si on a une branche A et qu'on veut la fusionner avec des modifications apporté
 * on fusionne la branche B avec A : git merge B
 * on fait un git push origin A
 
-
+# Issues
+Pour fermer une issue, il faut indiquer "fixes #idIssue" dans le message du commit
